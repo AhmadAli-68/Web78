@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Feedback Survey Form</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="680b88d0-0294-4529-bf4c-10a3b15908c5">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required maxlength="5" minlength="2">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="150">
+
+            <label for="feedback-type">Types of Feedback:</label>
+            <select name="feedback-type" id="feedback-type">
+                <option value="positive">Positive</option>
+                <option value="negative">Negative</option>
+                <option value="suggestions">Suggestions</option>
+            </select>
+
+            <fieldsed>
+                <legend>Services Used:</legend>
+                <input type="checkbox" name="services" id="service1" value="service1">
+                <label for="service1">Service 1</label><br>
+                <input type="checkbox" name="services" id="service2" value="service2">
+                <label for="service2">Service 2</label><br>
+                <input type="checkbox" name="services" id="service3" value="service3">
+                <label for="service3">Service 3</label>
+
+                <!-- <marquee behavior="alternate" direction="right">Enter you description here</marquee> -->
+            </fieldsed>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea name="comments" id="comments" rows="5"></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </main>
+    <button id="btn">Click me!</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
