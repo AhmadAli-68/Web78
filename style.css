@@ -1,0 +1,21 @@
+.abc {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+
+}
+
+.abc:hover {
+    background-color: BLUE;
+}
+
+.ali {
+    background-color: antiquewhite;
+    width: 50%;
+    border: 5px solid black;
+}
+
+span {
+    background-color: aqua;
+}
