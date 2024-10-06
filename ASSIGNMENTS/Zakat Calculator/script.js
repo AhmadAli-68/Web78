@@ -5,4 +5,4 @@ let zakatRate = 2.5 / 100;
 let zakatableWealth = income - liabilities;
 
 let zakatAmount = zakatableWealth * zakatRate;
-console.log(zakatAmount);
+console.log("Your Zakat amount is: " + zakatAmount);

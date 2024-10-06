@@ -4,19 +4,14 @@ weight = prompt("Enter your weight in KG:");
 height = prompt("Enter your height in meters:")
 
 BMI = weight / height ** 2;
-// console.log(BMI);
-document.write(BMI);
+console.log(BMI);
 
 if (BMI < 18.5) {
-    document.write("\n");
-    document.write("Person is underweight!");
+    console.log("Person is underweight!");
 } else if (BMI >= 18.5 && BMI <= 24.9) {
-    document.write("\n");
-    document.write("Person has normal weight!");
+    console.log("Person has normal weight!");
 } else if (BMI >= 25 && BMI <= 29.9) {
-    document.write("\n");
-    document.write("Person has oveweight!");
+    console.log("Person has overweight!");
 } else {
-    document.write("\n");
-    document.write("Person is obese!")
+    console.log("Person is obese!");
 }
