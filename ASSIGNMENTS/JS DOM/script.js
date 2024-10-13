@@ -1,7 +1,7 @@
 function checkGoods() {
     const goods = document.getElementById("goodsInput").value;
 
-    if (goods === 'watch' || goods === 'Watch') {
+    if (goods === 'watch is "good"' || goods === 'Watch') {
         // alert("Watch is Available!");
         document.getElementById("result").innerHTML = "Watch is Available!"
     }
