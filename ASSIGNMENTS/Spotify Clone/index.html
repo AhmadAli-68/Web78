@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favorite Music is Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of The Weeknd - Abel Tesfaye</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Blinding Lights</span>
+                    <span class="songListPlay"><span class="timeStamp">3:20 <i id="0"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Starboy</span>
+                    <span class="songListPlay"><span class="timeStamp">3:50 <i id="1"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Can't Feel My Face</span>
+                    <span class="songListPlay"><span class="timeStamp">3:33 <i id="2"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Is There Someone Else?</span>
+                    <span class="songListPlay"><span class="timeStamp">3:19 <i id="3"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Call Out My Name</span>
+                    <span class="songListPlay"><span class="timeStamp">3:48 <i id="4"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Dancing In The Flames</span>
+                    <span class="songListPlay"><span class="timeStamp">3:40 <i id="5"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Timeless</span>
+                    <span class="songListPlay"><span class="timeStamp">4:17 <i id="6"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome Icons -->
+            <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="7" id="gif">
+            <span id="masterSongInfo"></span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/91a03e6103.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
