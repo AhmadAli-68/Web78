@@ -71,6 +71,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
         audioElement.currentTime = 0;
         audioElement.play();
         gif.style.opacity = 1;
+
         masterPlay.classList.remove('fa-circle-play');
         masterPlay.classList.add('fa-circle-pause');
     })
