@@ -61,7 +61,7 @@ nav ul li {
     height: 100px;
     color: white;
     background-color: black;
-    /* bottom: 0; */
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
